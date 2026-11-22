@@ -21,11 +21,50 @@ Linver is a lightweight Linux system information viewer built with Python and GT
 - GTK4
 - PyGObject
 
-## Run
+## Installation
+
+### 1. Install dependencies
+
+Open a terminal and run:
+
+```bash
+sudo dnf install python3 python3-gobject gtk4 git
+```
+
+### 2. Clone the repository
+
+```bash
+git clone https://github.com/RiZk-gif/Linver.git
+```
+
+### 3. Enter the project directory
+
+```bash
+cd Linver
+```
+
+### 4. Run Linver
+
+```bash
+chmod +x Linver
+./Linver
+```
+
+## Updating
+
+To update Linver to the latest version:
+
+```bash
+cd Linver
+git pull
+```
+
+Then run Linver again:
 
 ```bash
 ./Linver
 ```
+
 
 ## Technology
 
