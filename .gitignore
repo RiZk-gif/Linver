@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json

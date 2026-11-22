@@ -1,0 +1,14 @@
+
+.title-1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.title-2 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 8px;
+}
