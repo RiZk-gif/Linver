@@ -4,6 +4,10 @@
 
 Linver is a lightweight Linux system information viewer built with Python and GTK4.
 
+Linver is inspired by Windows Winver, bringing a similar version information experience to Linux.
+
+ini Linver gw hanya dari referensi dari Winver
+
 ## Features
 
 - Linux distribution detection
