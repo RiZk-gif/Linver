@@ -1,4 +1,3 @@
-
 import platform
 import os
 
@@ -11,7 +10,7 @@ def read_os_release():
             for line in file:
                 if "=" in line:
                     key, value = line.strip().split("=", 1)
-                    data[key] = value.strip('"')
+                    data[key] = value.strip().strip('"')
     except OSError:
         pass
 
@@ -47,6 +46,7 @@ def get_system_info():
 
     return {
         "distro": os_data.get("PRETTY_NAME", "Unknown"),
+        "distro_id": os_data.get("ID", "").lower(),
         "version": os_data.get("VERSION_ID", "Unknown"),
         "kernel": platform.release(),
         "architecture": platform.machine(),
